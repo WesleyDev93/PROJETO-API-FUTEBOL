@@ -1,22 +1,21 @@
 import { conectaApi } from "./controller.js";
 
-const lista = document.querySelector("[data-tr]");
+const lista = document.querySelector(".tabelaDados");
 
 function constroiJogadores(nome, gols) {
     const jogadores = document.createElement("tr");
-    video.className = "tabelaDados";
-    video.innerHTML = `<tr>
+    jogadores.className = "tabelaDados";
+    jogadores.innerHTML = `<tr>
     <td>${nome}</td>
-    <td>${gols}/td>
+    <td>${gols}</td>
   </tr>`
 
-    return video;
+    return jogadores;
 }
 
-async function listaJogadores() {
+async function listaJogador(elemento) {
     const listaApi = await conectaApi.listaJogadores();
-    listaApi.forEach(elemento => lista.appendChild(
-        constroiCard(elemento.nome, elemento.gols,)))
+    listaApi.forEach(elemento => lista.appendChild( constroiJogadores(elemento.nome, elemento.gols,)))
 }
 
-listaJogadores();
+listaJogador();
