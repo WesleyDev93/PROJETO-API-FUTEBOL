@@ -1,4 +1,4 @@
-async function listaVideos() {
+async function listaJogadores() {
 
 
     const conexao = await fetch("http://localhost:3000/jogadores");
@@ -16,6 +16,6 @@ async function listaVideos() {
 
 export const conectaApi = {
 
-     listaVideos
+     listaJogadores
     
 }
