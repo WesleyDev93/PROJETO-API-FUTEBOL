@@ -1,0 +1,9 @@
+{
+    "jogadores": [
+      {
+        "Jogador": "Exemplo",
+        "gols": "5",
+        "id": 1
+      }
+    ]
+  }
