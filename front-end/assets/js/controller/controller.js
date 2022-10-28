@@ -4,16 +4,18 @@ async function listaVideos() {
     const conexao = await fetch("http://localhost:3000/jogadores");
     const conexaoConvertida = await conexao.json();
 
+    
     console.log (conexaoConvertida)
+    
 
-    //return conexaoConvertida;
+    return conexaoConvertida;
 }
 
+//listaVideos ()
 
 
+export const conectaApi = {
 
-//export const conectaApi = {
-
-  //  listaVideos
+     listaVideos
     
-//}
+}
