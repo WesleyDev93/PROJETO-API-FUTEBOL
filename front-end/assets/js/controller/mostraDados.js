@@ -19,3 +19,14 @@ async function listaJogador() {
 }
 
 listaJogador();
+
+//redirecionar 
+
+const botaoNovoJogador = document.querySelector (".novoJogador")
+
+console.log (botaoNovoJogador)
+
+botaoNovoJogador.addEventListener ('click', ()=> {
+    window.location.href = '../novoJogador.html'
+   // console.log ('pagina ok!')
+})
