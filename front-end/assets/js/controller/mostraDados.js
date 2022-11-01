@@ -24,9 +24,11 @@ listaJogador();
 
 const botaoNovoJogador = document.querySelector (".novoJogador")
 
-console.log (botaoNovoJogador)
+//console.log (botaoNovoJogador)
 
 botaoNovoJogador.addEventListener ('click', ()=> {
     window.location.href = '../novoJogador.html'
    // console.log ('pagina ok!')
 })
+
+
