@@ -15,7 +15,7 @@ async function listaJogadores() {
 //listaVideos ()
 
 
-async function criaJogagor (Jogador, gols) {
+async function criaJogador (Jogador, gols) {
     
     const conexao = await fetch ("http://localhost:3000/jogadores",{
         method: "POST",
@@ -23,7 +23,7 @@ async function criaJogagor (Jogador, gols) {
             "content-type":"application/json"
         },
         body: JSON.stringify ({
-            Jogador:Jogador,
+            jogador:Jogador,
             gols:gols,
             
         })
@@ -41,7 +41,7 @@ async function criaJogagor (Jogador, gols) {
 export const conectaApi = {
 
      listaJogadores,
-     criaJogagor
+     criaJogador
      
     
 }
