@@ -1,7 +1,7 @@
 import { conectaApi } from "./controller.js";
 
 
-const formulario = document.querySelector(".formulario")
+const formulario = document.querySelector(".enviarDados")
 
 
 
@@ -18,4 +18,8 @@ async function cadastroJogador(evento) {
 }
 
 formulario.addEventListener("submit", evento => cadastroJogador(evento))
+
+
+
+
 

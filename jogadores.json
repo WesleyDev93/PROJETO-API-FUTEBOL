@@ -8,9 +8,4 @@
   ]
 }
 
-formulario.addEventListener("submit", (evento) => {
-   
-  const Jogador = evento.target.querySelector(".Jogador").value
-  const gols = evento.target.querySelector(".gols").value
 
-})

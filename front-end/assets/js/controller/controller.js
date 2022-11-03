@@ -38,6 +38,7 @@ async function criaJogador (Jogador, gols) {
 
 
 
+
 export const conectaApi = {
 
      listaJogadores,
