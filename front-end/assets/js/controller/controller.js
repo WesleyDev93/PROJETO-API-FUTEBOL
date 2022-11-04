@@ -23,13 +23,13 @@ async function criaJogador (Jogador, gols) {
             "content-type":"application/json"
         },
         body: JSON.stringify ({
-            jogador:Jogador,
+            Jogador:Jogador,
             gols:gols,
             
         })
     })
 
-    const conexaoConvertida = await conexao.JSON ()
+    const conexaoConvertida = await conexao.json ()
     return conexaoConvertida
 }
 

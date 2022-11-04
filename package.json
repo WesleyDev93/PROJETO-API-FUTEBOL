@@ -11,5 +11,13 @@
   "dependencies": {
     "express": "^4.18.2",
     "json-server": "^0.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyDev93/PROJETO-API-FUTEBOL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WesleyDev93/PROJETO-API-FUTEBOL/issues"
+  },
+  "homepage": "https://github.com/WesleyDev93/PROJETO-API-FUTEBOL#readme"
 }

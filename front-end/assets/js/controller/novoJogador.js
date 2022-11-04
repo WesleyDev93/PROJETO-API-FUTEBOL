@@ -17,7 +17,7 @@ async function cadastroJogador(evento) {
     window.location.href = "index.html";
 }
 
-formulario.addEventListener("submit", evento => cadastroJogador(evento))
+formulario.addEventListener('click', evento => cadastroJogador(evento))
 
 
 
