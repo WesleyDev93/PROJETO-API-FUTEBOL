@@ -8,7 +8,9 @@ function constroiJogadores(Jogador, gols) {
     Jogadores.innerHTML = `<tr>
     <td>${Jogador}</td>
     <td>${gols}</td>
-  </tr>`
+  </tr>
+  <button class="excluir">X</button>`
+
 
     return Jogadores;
 }
