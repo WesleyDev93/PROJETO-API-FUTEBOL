@@ -6,9 +6,10 @@ function constroiJogadores(Jogador, gols, id) {
     const Jogadores = document.createElement("tr");
     Jogadores.className = "tabelaDados";
     Jogadores.innerHTML = `<tr>
+    <td>${id}</td>
     <td>${Jogador}</td>
     <td>${gols}</td>
-    <td>${id}</td>
+    
   </tr>
   <button class="excluir">X</button>`
 
