@@ -4,16 +4,16 @@ const lista = document.querySelector(".tabelaDados");
 
 function constroiJogadores(Jogador, gols, id) {
     const Jogadores = document.createElement("tr");
-    Jogadores.className = "tabelaDados";
+    Jogadores.className = "tabelaDados01";
     Jogadores.innerHTML = `<tr>
     <td>${id}</td>
     <td>${Jogador}</td>
     <td>${gols}</td>
-    
   </tr>
-  <button class="excluir">X</button>`
+   <button class="excluir" id=${id}>X</button>
+  `
 
-
+    Jogadores.dataset.id = id
     return Jogadores;
 }
 
