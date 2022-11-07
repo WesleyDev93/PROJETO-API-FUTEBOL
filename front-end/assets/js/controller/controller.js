@@ -35,11 +35,24 @@ async function criaJogador (Jogador, gols, id) {
 }
 
 
+const removeJogador= (id) => { 
+    return fetch(`http://localhost:3000/jogadores/${id}`, {
+        method: 'DELETE'
+    })
+    .then( resposta => { 
+        if(!resposta.ok){
+        throw new Error('Não foi possível deletar um cliente')
+        }
+    })
+}
+
+
 
 export const conectaApi = {
 
      listaJogadores,
      criaJogador,
+     removeJogador
      
 
      
