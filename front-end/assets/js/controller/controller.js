@@ -48,11 +48,23 @@ const removeJogador= (id) => {
 
 
 
+async  function buscaJogadores (termoDeBusca) {
+    
+    const conexao = await fetch(`http://localhost:3000/jogadores?q=${termoDeBusca}`)
+
+    const conexaoConvertida = conexao.json ()
+
+    return conexaoConvertida
+}
+
+
+
 export const conectaApi = {
 
      listaJogadores,
      criaJogador,
-     removeJogador
+     removeJogador,
+     buscaJogadores
      
 
      

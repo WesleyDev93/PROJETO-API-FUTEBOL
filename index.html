@@ -13,9 +13,12 @@
         <img class="logo" src="./front-end/assets/img/fut terça.png" alt="Logo Futebol de terça">
 
         <h1 class="titulo">Lista de Jogadores</h1>
-
-
+      
+        
         <button class="novoJogador">Novo Jogador</button>
+
+        <label for="pesquisa">Pesquisar</label>
+        <input type="text" name="pesquisa" id="pesquisa" data-pesquisa> <button class="pesquisa" data-botao-pesquisa>🔎</button>
 
      </header>
      
@@ -23,6 +26,7 @@
      <section>
        <table>
          <tr>
+           <th>Numero</th>
            <th>Jogador</th>
            <th>Gols</th>
          </tr>
@@ -42,7 +46,7 @@
           </table>
 
 
-          <button>Editar</button>
+          
 
           
      </section>
@@ -51,4 +55,7 @@
 </body>
 <script src="./front-end/assets/js/controller/mostraDados.js" type="module"></script>
 <script src="./front-end/assets/js/controller/removeJogador.js" type="module"></script>
+<script src="./front-end/assets/js/controller/buscaJogadores.js" type="module"></script>
 </html>
+
+

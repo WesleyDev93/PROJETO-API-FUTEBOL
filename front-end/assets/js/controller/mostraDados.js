@@ -2,7 +2,7 @@ import { conectaApi } from "./controller.js";
 
 const lista = document.querySelector(".tabelaDados");
 
-function constroiJogadores(Jogador, gols, id) {
+export default  function constroiJogadores(Jogador, gols, id) {
     const Jogadores = document.createElement("tr");
     Jogadores.className = "tabelaDados01";
     Jogadores.innerHTML = `<tr>
@@ -11,6 +11,8 @@ function constroiJogadores(Jogador, gols, id) {
     <td>${gols}</td>
   </tr>
    <button class="excluir" id=${id}>X</button>
+
+   <button class="editar" id=${id}><a href="editar.html">Editar</a></button>
   `
 
     Jogadores.dataset.id = id
@@ -34,5 +36,7 @@ botaoNovoJogador.addEventListener ('click', ()=> {
     window.location.href = '../novoJogador.html'
    // console.log ('pagina ok!')
 })
+
+
 
 

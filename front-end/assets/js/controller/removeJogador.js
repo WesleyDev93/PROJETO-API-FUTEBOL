@@ -9,7 +9,7 @@ const tabela = document.querySelector (".tabelaDados")
 
 
 
-console.log (tabela)
+
 
 
 
@@ -26,7 +26,7 @@ tabela.addEventListener('click', async (evento)=> {
         }
         catch(erro){
             console.log(erro)
-            window.location.href="../telas/erro.html"
+            alert ("erro , por favor tente denovo")
         }
     }
 })

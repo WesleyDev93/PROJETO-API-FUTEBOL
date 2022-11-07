@@ -4,6 +4,16 @@
       "Jogador": "Wesley",
       "gols": "5",
       "id": 2
+    },
+    {
+      "Jogador": "teste ",
+      "gols": "30",
+      "id": 3
+    },
+    {
+      "Jogador": "wesley",
+      "gols": "20",
+      "id": 4
     }
   ]
 }
