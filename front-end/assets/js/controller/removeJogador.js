@@ -7,15 +7,9 @@ import { conectaApi } from "./controller.js";
 const tabela = document.querySelector (".tabelaDados")
 
 
-
-
-
-
-
-
-
 tabela.addEventListener('click', async (evento)=> {
-    
+          evento.preventDefault()
+   
     let ehBotaoDeDeleta = evento.target.className === 'excluir'
     if(ehBotaoDeDeleta){
         try {

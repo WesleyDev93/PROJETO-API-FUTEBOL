@@ -1,9 +1,14 @@
 {
   "jogadores": [
     {
-      "Jogador": "wesley",
+      "Jogador": "teste ",
       "gols": "15",
       "id": 1
+    },
+    {
+      "Jogador": "teste ",
+      "gols": "15",
+      "id": 2
     }
   ]
 }

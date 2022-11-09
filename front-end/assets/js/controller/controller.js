@@ -48,6 +48,8 @@ const removeJogador= (id) => {
 
 
 
+
+
 async  function buscaJogadores (termoDeBusca) {
     
     const conexao = await fetch(`http://localhost:3000/jogadores?q=${termoDeBusca}`)
@@ -59,12 +61,17 @@ async  function buscaJogadores (termoDeBusca) {
 
 
 
+
+
+
+
 export const conectaApi = {
 
      listaJogadores,
      criaJogador,
      removeJogador,
      buscaJogadores
+     
      
 
      
