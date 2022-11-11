@@ -4,19 +4,24 @@ import constroiJogadores from "../controller/mostraDados.js";
 
 
 
+
 async function buscaJogadores (evento) {
-     evento.preventDefault ()
-     
-    const dadosDaPesquisa = document.querySelector ("[data-pesquisa]").value
+    evento.preventDefault ()
+    
+   const dadosDaPesquisa = document.querySelector ("[data-pesquisa]").value
 
-    const busca = await conectaApi.buscaJogadores ()
+   const busca = await conectaApi.buscaJogadores ()
 
 
-    const tabela = document.querySelector ("tabelaDados01")
+   const tabela = document.querySelector (".tabelaDados01")
 
-    console.log (busca)
+   console.log (dadosDaPesquisa)
+   console.log (evento)
+   console.log (busca)
+   console.log (tabela)
 
-    busca.forEach(elemento => tabela.appendChild (constroiJogadores (elemento.Jogador, elemento.gols,elemento.id)));
+
+   busca.forEach(elemento => tabela.appendChild (constroiJogadores (elemento.Jogador, elemento.gols,elemento.id)));
 
 }
 const botaoPesquisa = document.querySelector ("[data-botao-pesquisa]")
@@ -24,5 +29,3 @@ const botaoPesquisa = document.querySelector ("[data-botao-pesquisa]")
 
 
 botaoPesquisa.addEventListener ("click", evento => buscaJogadores (evento))
-
-

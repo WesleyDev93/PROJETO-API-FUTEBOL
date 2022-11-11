@@ -57,6 +57,8 @@ async  function buscaJogadores (termoDeBusca) {
     const conexaoConvertida = conexao.json ()
 
     return conexaoConvertida
+
+
 }
 
 
