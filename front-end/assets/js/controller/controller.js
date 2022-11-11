@@ -70,10 +70,8 @@ export const conectaApi = {
      listaJogadores,
      criaJogador,
      removeJogador,
-     buscaJogadores
+     buscaJogadores,
      
-     
-
-     
+   
     
 }

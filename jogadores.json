@@ -3,12 +3,12 @@
     {
       "Jogador": "teste ",
       "gols": "15",
-      "id": 1
+      "id": 2
     },
     {
-      "Jogador": "teste ",
-      "gols": "15",
-      "id": 2
+      "Jogador": "wesley",
+      "gols": "2",
+      "id": 3
     }
   ]
 }
