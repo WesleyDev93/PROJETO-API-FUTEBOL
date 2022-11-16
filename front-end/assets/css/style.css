@@ -8,4 +8,55 @@
 .corpo .titulo {
   font-family: "Island Moments", cursive;
   text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+  .corpo .logo {
+    left: 70px;
+    position: relative;
+  }
+  .corpo .titulo {
+    left: 10px;
+    position: relative;
+  }
+  .corpo .labelPesquisa {
+    display: none;
+  }
+  .corpo .pesquisa, .corpo #pesquisa {
+    display: none;
+  }
+  .corpo .novoJogador {
+    left: 150px;
+    position: relative;
+    margin-top: 15px;
+  }
+  .corpo .dadosTitulo {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .corpo .tabelaDados01 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .corpo .apagar {
+    left: 25px;
+    position: relative;
+  }
+  .corpo .id {
+    left: 85px;
+    position: relative;
+  }
+  .corpo .Jogador {
+    left: 61px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+  }
+  .gols {
+    position: relative;
+    left: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -10,7 +10,9 @@ export default  function constroiJogadores(Jogador, gols, id) {
     <td class="Jogador">${Jogador}</td>
     <td class="gols">${gols}</td>
   </tr>
+   <div class="botaoExcluir">
    <button class="excluir">X</button>
+   </div>
   `
 
     Jogadores.dataset.id = id

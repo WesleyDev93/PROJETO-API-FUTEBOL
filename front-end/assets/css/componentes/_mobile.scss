@@ -1,0 +1,68 @@
+
+
+@media screen and (max-width:414px){
+    .corpo {
+        
+        .logo {
+            left: 70px;
+            position: relative;
+
+        }
+        .titulo, {
+            left: 10px;
+            position: relative;
+        }
+        .labelPesquisa {
+
+            display: none;
+        }
+        .pesquisa, #pesquisa {
+            display: none;
+        }
+        .novoJogador {
+            left: 150px;
+            position: relative;
+            margin-top: 15px;
+        }
+        .dadosTitulo {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 50px;
+            margin-top: 20px;
+            width: 300px;
+        }
+        .tabelaDados01 {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .apagar {
+
+            left: 25px;
+            position: relative;
+            
+        }
+        .id {
+            
+            left: 85px;
+            position: relative;
+        }
+        .Jogador {
+
+            left: 61px;
+            position: relative;
+            text-align: center;
+            width: 30px;
+   
+}
+        }
+        .gols {
+            position: relative;
+            left: 15px;
+        }
+        .excluir {
+
+           
+    
+        }
+}
