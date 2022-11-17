@@ -8,7 +8,7 @@
             position: relative;
 
         }
-        .titulo, {
+        .titulo {
             left: 10px;
             position: relative;
         }
@@ -20,11 +20,17 @@
             display: none;
         }
         .novoJogador {
+                 
+            @include textoPrincipal;
+
             left: 150px;
             position: relative;
             margin-top: 15px;
         }
         .dadosTitulo {
+               
+            @include textoPrincipal;
+
             display: flex;
             justify-content: space-around;
             margin-left: 50px;
@@ -43,13 +49,16 @@
             
         }
         .id {
+
+            @include textoPrincipal;
             
             left: 85px;
             position: relative;
         }
         .Jogador {
+            @include textoPrincipal;
 
-            left: 61px;
+            left: 55px;
             position: relative;
             text-align: center;
             width: 30px;
@@ -57,12 +66,101 @@
 }
         }
         .gols {
+            @include textoPrincipal;
+
+
             position: relative;
             left: 15px;
         }
         .excluir {
 
-           
+            @include textoPrincipal;
     
         }
+        .rodape__corp {
+
+            @include textoPrincipal;
+            
+            position: relative;
+            top: 150px;
+            text-align: center;
+
+        }
 }
+
+
+ /* Pagina de cadastro */
+
+
+ @media screen and (max-width:414px) { 
+    .corpo {
+         
+        .logo {
+             
+            left: 70px;
+            position: relative;
+        }
+        .titulo {
+
+
+            left: 10px;
+            position: relative;
+        }
+        .formulario {
+
+            display: flex;
+            flex-direction: column;
+        }
+        .Jogador02 {
+
+
+            left: 60px;
+            position: relative;
+            width: 70%;
+
+        }
+        .nomeJogador {
+            
+            @include textoPrincipal;
+
+            margin-top: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+              
+
+        }
+        .nomeGols {
+
+            @include textoPrincipal;
+
+            margin-top: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+
+        }
+        .gols02 {
+
+            
+            left: 60px;
+            position: relative;
+            width: 70%;
+
+        }
+        
+        
+    }
+    .enviarDados {
+
+        @include textoPrincipal;
+
+
+        left: 175px;
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+
+ }
+
+

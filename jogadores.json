@@ -9,6 +9,11 @@
       "Jogador": "wesley",
       "gols": "30",
       "id": 3
+    },
+    {
+      "Jogador": "testes",
+      "gols": "60",
+      "id": 4
     }
   ]
 }

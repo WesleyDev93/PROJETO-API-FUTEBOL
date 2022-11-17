@@ -1,5 +1,5 @@
 .corpo {
-  background-color: DodgerBlue;
+  background-color: SkyBlue;
 }
 .corpo .logo {
   left: 550px;
@@ -26,11 +26,13 @@
     display: none;
   }
   .corpo .novoJogador {
+    font-family: "Island Moments", cursive;
     left: 150px;
     position: relative;
     margin-top: 15px;
   }
   .corpo .dadosTitulo {
+    font-family: "Island Moments", cursive;
     display: flex;
     justify-content: space-around;
     margin-left: 50px;
@@ -46,17 +48,73 @@
     position: relative;
   }
   .corpo .id {
+    font-family: "Island Moments", cursive;
     left: 85px;
     position: relative;
   }
   .corpo .Jogador {
-    left: 61px;
+    font-family: "Island Moments", cursive;
+    left: 55px;
     position: relative;
     text-align: center;
     width: 30px;
   }
   .gols {
+    font-family: "Island Moments", cursive;
     position: relative;
     left: 15px;
+  }
+  .excluir {
+    font-family: "Island Moments", cursive;
+  }
+  .rodape__corp {
+    font-family: "Island Moments", cursive;
+    position: relative;
+    top: 150px;
+    text-align: center;
+  }
+}
+/* Pagina de cadastro */
+@media screen and (max-width: 414px) {
+  .corpo .logo {
+    left: 70px;
+    position: relative;
+  }
+  .corpo .titulo {
+    left: 10px;
+    position: relative;
+  }
+  .corpo .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  .corpo .Jogador02 {
+    left: 60px;
+    position: relative;
+    width: 70%;
+  }
+  .corpo .nomeJogador {
+    font-family: "Island Moments", cursive;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .corpo .nomeGols {
+    font-family: "Island Moments", cursive;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .corpo .gols02 {
+    left: 60px;
+    position: relative;
+    width: 70%;
+  }
+  .enviarDados {
+    font-family: "Island Moments", cursive;
+    left: 175px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
