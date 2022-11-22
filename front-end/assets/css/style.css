@@ -14,6 +14,10 @@
   left: 600px;
   position: relative;
 }
+.corpo .sair {
+  font-family: "Island Moments", cursive;
+  position: relative;
+}
 .corpo .labelPesquisa {
   margin-top: 15px;
   left: 750px;
@@ -102,7 +106,7 @@
   }
   .corpo .novoJogador {
     font-family: "Island Moments", cursive;
-    left: 150px;
+    left: 200px;
     position: relative;
     margin-top: 15px;
   }
@@ -130,17 +134,19 @@
   .corpo .Jogador {
     font-family: "Island Moments", cursive;
     left: 55px;
-    position: relative;
-    text-align: center;
+    position: relative !important;
+    text-align: center !important;
     width: 30px;
   }
   .gols {
     font-family: "Island Moments", cursive;
-    position: relative;
-    left: 15px;
+    position: relative !important;
+    left: 15px !important;
   }
   .excluir {
     font-family: "Island Moments", cursive;
+    position: relative !important;
+    left: 5px !important;
   }
   .rodape__corp {
     font-family: "Island Moments", cursive;

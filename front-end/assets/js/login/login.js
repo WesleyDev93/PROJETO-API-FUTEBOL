@@ -10,10 +10,12 @@ console.log (senha)
         
         alert ('Muito Bem vindo ao Sistema Diretoria');
 
-        location.href = "listaJogadores.html";
+        location.href = "index.html";
     }else {
         alert ('Sua senha esta errada  -- Tente Denovo!');
     }
 }
+
+
 
 

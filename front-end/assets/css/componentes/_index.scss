@@ -19,6 +19,12 @@
         position: relative;
         
     }
+    .sair{
+        
+        @include textoPrincipal;
+        position: relative;
+        
+    }
     .labelPesquisa {
 
         margin-top: 15px;

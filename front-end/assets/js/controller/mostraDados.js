@@ -38,3 +38,13 @@ botaoNovoJogador.addEventListener ('click', ()=> {
 })
 
 
+
+
+const botaoSair = document.querySelector (".sair");
+
+
+
+botaoSair.addEventListener ('click', ()=> {
+    window.location.href = '../login.html'
+   // console.log ('pagina ok!')
+})

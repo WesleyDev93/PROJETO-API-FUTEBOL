@@ -23,7 +23,7 @@
                  
             @include textoPrincipal;
 
-            left: 150px;
+            left: 200px;
             position: relative;
             margin-top: 15px;
         }
@@ -59,22 +59,28 @@
             @include textoPrincipal;
 
             left: 55px;
-            position: relative;
-            text-align: center;
-            width: 30px;
+            position: relative !important;
+            text-align: center !important;
+            width: 30px ;
+            
    
-}
+}  
         }
         .gols {
             @include textoPrincipal;
 
 
-            position: relative;
-            left: 15px;
+            position: relative !important;
+            left: 15px !important;
         }
         .excluir {
 
             @include textoPrincipal;
+
+
+            position: relative !important;
+            left: 5px !important;
+
     
         }
         .rodape__corp {
