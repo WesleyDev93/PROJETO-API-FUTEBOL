@@ -4,8 +4,7 @@ import constroiJogadores from "../controller/mostraDados.js";
 
 
 
-
-async function buscaJogadores (evento) {
+async function buscaJogador (evento) {
     evento.preventDefault ()
     
    const dadosDaPesquisa = document.querySelector ("[data-pesquisa]").value
@@ -23,9 +22,15 @@ async function buscaJogadores (evento) {
 
    busca.forEach(elemento => tabela.appendChild (constroiJogadores (elemento.Jogador, elemento.gols,elemento.id)));
 
+
+    if (dadosDaPesquisa) {
+        
+        tabela.style.color = 'red';
+    }
+
 }
 const botaoPesquisa = document.querySelector ("[data-botao-pesquisa]")
 
 
 
-botaoPesquisa.addEventListener ("click", evento => buscaJogadores (evento))
+botaoPesquisa.addEventListener ("click", evento => buscaJogador (evento))

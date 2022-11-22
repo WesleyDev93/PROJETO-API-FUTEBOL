@@ -50,16 +50,17 @@ const removeJogador= (id) => {
 
 
 
-async  function buscaJogadores (termoDeBusca) {
+async  function buscaJogadores (Jogador) {
     
-    const conexao = await fetch(`http://localhost:3000/jogadores?q=${termoDeBusca}`)
+
+    const conexao = await fetch(`http://localhost:3000/jogadores?q=${Jogador}`)
 
     const conexaoConvertida = conexao.json ()
 
     return conexaoConvertida
 
-
 }
+
 
 
 
