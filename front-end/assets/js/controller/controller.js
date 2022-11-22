@@ -41,7 +41,7 @@ const removeJogador= (id) => {
     })
     .then( resposta => { 
         if(!resposta.ok){
-        throw new Error('Não foi possível deletar um cliente')
+        throw new Error('Não foi possível deletar um Jogador')
         }
     })
 }

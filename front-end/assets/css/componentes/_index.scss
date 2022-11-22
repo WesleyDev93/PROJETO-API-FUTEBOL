@@ -11,8 +11,157 @@
         @include textoPrincipal;
         text-align: center;
     }
+    .novoJogador {
+
+
+        margin-top: 15px;
+        left: 600px;
+        position: relative;
+        
+    }
+    .labelPesquisa {
+
+        margin-top: 15px;
+        left: 750px;
+        position: relative;
+       
+
+        
+    }
+    .pesquisa {
+
+
+        margin-top: 15px;
+        left: 750px;  
+        position: relative;
+        
+    }
+    #pesquisa {
+
+
+        margin-top: 15px;
+        left: 750px;
+        position: relative;
+        
+    }
+    .dadosTitulo {
+
+
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        width: 1300px;
+    }
+    .id {
+         
+        @include textoPrincipal;
+        left: 145px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+
+
+    }
+    .Jogador {
+
+        @include textoPrincipal;
+        left: 440px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+
+
+    }
+    .gols {
+
+
+         @include textoPrincipal;
+        left: 715px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+
+    }
+    .excluir {
+
+        @include textoPrincipal;
+        left: 1000px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+    }
+    .rodape {
+       
+        @include textoPrincipal;
+        position: relative;
+        top: 100px;
+        text-align: center;
+    }
+   
     
     
 }
+
+
+/* Pagina de cadastro */
+
+
+
+.corpo {
+         
+    .logo {
+         
+        left: 550px;
+        position: relative;
+    }
+    .titulo {
+
+
+        
+    }
+    .formulario {
+
+        
+    }
+    .Jogador02 {
+
+
+        
+
+    }
+    .nomeJogador {
+        
+        @include textoPrincipal;
+
+        
+          
+
+    }
+    .nomeGols {
+
+        @include textoPrincipal;
+
+       
+
+    }
+    .gols02 {
+
+        
+       
+
+    }
+    .enviarDados {
+
+        @include textoPrincipal;
+    
+    
+      
+    }
+    
+    
+}
+
+
+
 
 

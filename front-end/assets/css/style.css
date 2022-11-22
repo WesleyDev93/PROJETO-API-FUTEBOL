@@ -9,6 +9,81 @@
   font-family: "Island Moments", cursive;
   text-align: center;
 }
+.corpo .novoJogador {
+  margin-top: 15px;
+  left: 600px;
+  position: relative;
+}
+.corpo .labelPesquisa {
+  margin-top: 15px;
+  left: 750px;
+  position: relative;
+}
+.corpo .pesquisa {
+  margin-top: 15px;
+  left: 750px;
+  position: relative;
+}
+.corpo #pesquisa {
+  margin-top: 15px;
+  left: 750px;
+  position: relative;
+}
+.corpo .dadosTitulo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 1300px;
+}
+.corpo .id {
+  font-family: "Island Moments", cursive;
+  left: 145px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+}
+.corpo .Jogador {
+  font-family: "Island Moments", cursive;
+  left: 440px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+}
+.corpo .gols {
+  font-family: "Island Moments", cursive;
+  left: 715px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+}
+.corpo .excluir {
+  font-family: "Island Moments", cursive;
+  left: 1000px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+}
+.corpo .rodape {
+  font-family: "Island Moments", cursive;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+/* Pagina de cadastro */
+.corpo .logo {
+  left: 550px;
+  position: relative;
+}
+.corpo .nomeJogador {
+  font-family: "Island Moments", cursive;
+}
+.corpo .nomeGols {
+  font-family: "Island Moments", cursive;
+}
+.corpo .enviarDados {
+  font-family: "Island Moments", cursive;
+}
 
 @media screen and (max-width: 414px) {
   .corpo .logo {
