@@ -79,6 +79,10 @@
   left: 550px;
   position: relative;
 }
+.corpo .formulario {
+  display: flex;
+  flex-direction: column;
+}
 .corpo .nomeJogador {
   font-family: "Island Moments", cursive;
 }
