@@ -175,44 +175,44 @@
 /* Pagina de cadastro */
 @media screen and (max-width: 414px) {
   .corpo .logo {
-    left: 70px;
-    position: relative;
+    left: 70px !important;
+    position: relative !important;
   }
   .corpo .titulo {
     left: 10px;
-    position: relative;
+    position: relative !important;
   }
   .corpo .formulario {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   .corpo .Jogador02 {
-    left: 60px;
-    position: relative;
-    width: 70%;
+    left: 60px !important;
+    position: relative !important;
+    width: 70% !important;
   }
   .corpo .nomeJogador {
     font-family: "Island Moments", cursive;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
   }
   .corpo .nomeGols {
     font-family: "Island Moments", cursive;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
   }
   .corpo .gols02 {
-    left: 60px;
-    position: relative;
-    width: 70%;
+    left: 60px !important;
+    position: relative !important;
+    width: 70% !important;
   }
   .enviarDados {
     font-family: "Island Moments", cursive;
-    left: 175px;
-    position: relative;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    left: 175px !important;
+    position: relative !important;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important;
   }
 }/*# sourceMappingURL=style.css.map */

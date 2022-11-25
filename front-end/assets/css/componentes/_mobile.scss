@@ -103,35 +103,35 @@
          
         .logo {
              
-            left: 70px;
-            position: relative;
+            left: 70px !important;
+            position: relative !important;
         }
         .titulo {
 
 
             left: 10px;
-            position: relative;
+            position: relative !important;
         }
         .formulario {
 
-            display: flex;
-            flex-direction: column;
+            display: flex !important;
+            flex-direction: column !important;
         }
         .Jogador02 {
 
 
-            left: 60px;
-            position: relative;
-            width: 70%;
+            left: 60px !important;
+            position: relative !important;
+            width: 70% !important;
 
         }
         .nomeJogador {
             
             @include textoPrincipal;
 
-            margin-top: 10px;
-            margin-bottom: 30px;
-            text-align: center;
+            margin-top: 10px !important;
+            margin-bottom: 30px !important;
+            text-align: center !important;
               
 
         }
@@ -139,17 +139,17 @@
 
             @include textoPrincipal;
 
-            margin-top: 10px;
-            margin-bottom: 30px;
-            text-align: center;
+            margin-top: 10px !important; 
+            margin-bottom: 30px !important;
+            text-align: center !important;
 
         }
         .gols02 {
 
             
-            left: 60px;
-            position: relative;
-            width: 70%;
+            left: 60px !important;
+            position: relative !important;
+            width: 70% !important;
 
         }
         
@@ -160,13 +160,12 @@
         @include textoPrincipal;
 
 
-        left: 175px;
-        position: relative;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        left: 175px !important;
+        position: relative !important;
+        margin-top: 15px !important;
+        margin-bottom: 30px !important;
     }
     
-
  }
 
 
