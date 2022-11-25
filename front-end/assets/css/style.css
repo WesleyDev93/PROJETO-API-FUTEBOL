@@ -82,15 +82,28 @@
 .corpo .formulario {
   display: flex;
   flex-direction: column;
+  left: 320px;
+  position: relative;
+}
+.corpo .Jogador02 {
+  width: 50%;
 }
 .corpo .nomeJogador {
   font-family: "Island Moments", cursive;
+  margin: 15px 0px 15px 0px;
 }
 .corpo .nomeGols {
   font-family: "Island Moments", cursive;
+  margin: 15px 0px 15px 0px;
+}
+.corpo .gols02 {
+  width: 50%;
 }
 .corpo .enviarDados {
   font-family: "Island Moments", cursive;
+  left: 630px;
+  position: relative;
+  margin: 30px 0px 15px 0px;
 }
 
 @media screen and (max-width: 414px) {
