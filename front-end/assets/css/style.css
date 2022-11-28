@@ -187,25 +187,29 @@
     flex-direction: column !important;
   }
   .corpo .Jogador02 {
-    left: 60px !important;
     position: relative !important;
+    right: 250px !important;
     width: 70% !important;
   }
   .corpo .nomeJogador {
     font-family: "Island Moments", cursive;
+    position: relative !important;
+    right: 310px !important;
     margin-top: 10px !important;
     margin-bottom: 30px !important;
     text-align: center !important;
   }
   .corpo .nomeGols {
     font-family: "Island Moments", cursive;
+    position: relative !important;
+    right: 310px !important;
     margin-top: 10px !important;
     margin-bottom: 30px !important;
     text-align: center !important;
   }
   .corpo .gols02 {
-    left: 60px !important;
     position: relative !important;
+    right: 250px !important;
     width: 70% !important;
   }
   .enviarDados {
