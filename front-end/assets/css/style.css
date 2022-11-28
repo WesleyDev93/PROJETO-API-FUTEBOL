@@ -219,4 +219,16 @@
     margin-top: 15px !important;
     margin-bottom: 30px !important;
   }
+}
+/* Pagina de Login */
+@media screen and (max-width: 414px) {
+  .imagem {
+    left: 100px !important;
+    position: relative !important;
+    padding: 0px !important;
+  }
+  .formulario {
+    left: 40px !important;
+    position: relative !important;
+  }
 }/*# sourceMappingURL=style.css.map */
