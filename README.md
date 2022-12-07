@@ -60,7 +60,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL do site ao vivo: (<https://https://projeto-api-futebol.vercel.app/login.html/>)
+- URL do site ao vivo: (<https://projeto-api-futebol.vercel.app/login.html/>)
 
 ## Meu processo
 
